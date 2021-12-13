@@ -6,7 +6,6 @@
 #include <string>
 
 #include "Sintactico.tab.h" //Se incluye el archivo que genera bison, para usar uso de los tokens
-#include "Scanner.h"  //Define la clase yyFlexLexer, para complementar el lexer con c++
 %}
 
 %option c++
